@@ -5,7 +5,6 @@ class Fraction {
     int denominator;
 
     public:
-
         Fraction(int numerator = 0, int denominator = 1)
             : numerator(numerator), denominator(denominator) {}
         
@@ -104,4 +103,5 @@ int main() {
     fracDiv.printFraction(); //30/33
     
 }
+
 
